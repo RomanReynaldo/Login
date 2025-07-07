@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tecnologías Roman</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    .midisenio {
+      background: linear-gradient(135deg, #e5e9ef, #6610f2);
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .midisenio h1 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+
+    .midisenio p {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    footer {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+    }
+  </style>
+
+
+</head>
+<body>
+
+  <!-- Navbar de Bootstrap-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+        Tecnologías Roman
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#mision">Misión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#vision">Visión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactenos.html">Contáctenos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ubicacion">Ubicación</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- seccion de midisenio  -->
+  <div class="midisenio">
+    <h1>Bienvenido a Tecnologías Roman</h1>
+    <p>Innovación y soluciones para el futuro de tu Negocio.</p>
+  </div>
+
+  <!-- Misión -->
+  <section id="mision" class="container">
+    <h2>Misión</h2>
+    <p>
+      Ofrecer soluciones tecnológicas  que impulsen el crecimiento y la eficiencia de los proyectos de todos nuestros clientes.
+    </p>
+  </section>
+
+  <!-- Visión -->
+  <section id="vision" class="container">
+    <h2>Visión</h2>
+    <p>
+      Ser líderes en el sector tecnológico, reconocidos por nuestro compromiso y aporte al desarrollo sostenible y tecnológico.
+    </p>
+  </section>
+
+  <!-- Ubicación -->
+  <section id="ubicacion" class="container">
+    <h2>Ubicación</h2>
+    <div class="ratio ratio-16x9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1499.7292441844786!2d-96.74461018319964!3d17.078472945892543!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c72206aa56bc19%3A0x134879e849e14789!2sTecNM%20-%20Campus%20Oaxaca!5e1!3m2!1ses!2smx!4v1751255494440!5m2!1ses!2smx"
+         width="600" 
+         height="450"
+         style="border:0;" 
+         allowfullscreen="" 
+         loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+         </iframe>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Tecnologías Roman. Todos los derechos reservados.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
