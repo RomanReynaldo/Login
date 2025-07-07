@@ -2,9 +2,11 @@
 
 Proyecto de página de inicio de sesión centrado y responsive, con validación simple en JavaScript y estilo moderno usando CSS y Bootstrap Icons.
 
- **[Ver Demo Online](https://romanreynaldo.github.io/Login/)**
+## Proyecto de Login  
 
----
+## Ver Online
+Puedes probar la demo aquí:  
+<a href="https://romanreynaldo.github.io/Login/" target="_blank">Ver Demo Online</a>
 
 ##  Características
 
