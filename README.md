@@ -21,8 +21,24 @@ Puedes probar la demo aquí:
 Descarga el archiuvo desde menu de descargar de GitHub
 
 
-## Prueba con credenciales válidas
+## Captura de pantalla
+### 🔒 Login vacío
+![Login vacío](img/LoginVacio.png)
 
+### ❌ Intento de login incorrecto
+![Login incorrecto](img/UnBadLogin.png)
+
+### ✅ Login exitoso
+![Login exitoso](img/UnSuccLogin.png)
+
+
+###  Html 
+![html](img/htmlLogin.png)
+
+###  JavaScript 
+![js](img/jsValidacion.png)
+
+## Prueba con credenciales válidas
 Usuario: **user**
 
 Contraseña: **password**
